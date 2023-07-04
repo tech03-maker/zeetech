@@ -146,3 +146,13 @@
         height: 20rem;
     }
 }
+
+@media screen and (max-width: 450px){
+    .hero_text h4{
+        font-size: 2.5rem;
+    }
+
+    .mobile img{
+        height: 26rem;
+    }
+}

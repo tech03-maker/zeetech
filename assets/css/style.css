@@ -83,7 +83,53 @@
     bottom: 10rem;
 }
 
+.about{
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: rgba(76, 134, 220, 1);
+    /* padding-left: 8rem; */
+    margin: auto;
+    text-align: center;
+}
 
+.imgg{
+    background-image: url(../images/iconic-mobile-phones.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 80vh;
+    border-radius: 10px;
+    filter: brightness(70%);
+}
+
+.containers2{
+    display: flex;
+    padding: 50px;
+}
+
+.one{
+    /* padding: 30px; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: rgba(76, 134, 220, 1);
+
+}
+
+.one p {
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+}
+
+.one i{
+    background-color: white;
+    padding: 30px;
+    font-size: 30px;
+    border: 1px solid rgba(76, 134, 220, 1);
+}
 
 /* media queries */
 
@@ -91,6 +137,33 @@
     .containers{
         display: block;
     }
+
+
+    .containers2 {
+        display: block;
+    }
+
+    .one{
+        margin: auto;
+        /* justify-content: center; */
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .imgg{
+        width: 100%;
+    }
+
+    .about{
+        padding-top: 70px;
+    }
+
+
+
+    .mobile img{
+        display: block;
+    }
+
 
     .hero_text h3{
         font-size: 3rem;
@@ -120,6 +193,8 @@
     .hero_text h3{
         font-size: 1.7rem;
     }
+
+    
     .hero_text h4{
         font-size: 3.7rem;
     }
@@ -135,12 +210,15 @@
     .hero_text h4{
         font-size: 3.9rem;
     }
+
+
 }  
 
 @media screen and (max-width: 330px){
     .hero_text h4{
         font-size: 2.5rem;
     }
+
 
     .mobile img{
         height: 20rem;
@@ -155,4 +233,5 @@
     .mobile img{
         height: 22rem;
     }
+
 }

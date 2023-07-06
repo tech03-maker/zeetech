@@ -170,7 +170,7 @@
 .texts2 i{
     background-color: rgba(76, 134, 220, 1);
     color: white;
-    padding: 5px;
+    padding: 15px;
     border-radius: 50%;
     font-size: 15px;
 
@@ -213,6 +213,67 @@
     font-weight: bold;
 }
 
+.content {
+    height: 70vh; }
+  
+  .footer-16371 {
+    padding: 6rem 0;
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(76, 134, 220, 1);
+}
+    .footer-16371 .footer-site-logo {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 900; }
+      .footer-16371 .footer-site-logo a {
+        color: #4200ff; }
+    .footer-16371 .nav-links {
+      padding: 0;
+      margin: 0; }
+      .footer-16371 .nav-links li {
+        display: inline-block; }
+        .footer-16371 .nav-links li a {
+          padding: 10px;
+          color: #fff; }
+          .footer-16371 .nav-links li a:hover {
+            color: #4200ff; }
+    .footer-16371 .social h3 {
+      font-weight: bold;
+      font-size: 18px;
+      color: #fff; }
+    .footer-16371 .social ul li {
+      display: inline-block; }
+      .footer-16371 .social ul li a {
+        display: inline-block;
+        padding: 10px; }
+      .footer-16371 .social ul li.in a {
+        color: rgba(11, 85, 194, 1);
+        margin-left: 10px;
+        padding: 15px;
+        border-radius: 10%;
+    background-color: white; }
+      .footer-16371 .social ul li.tw a {
+        color: rgba(11, 85, 194, 1);
+        margin-left: 10px;
+        padding: 15px;
+        border-radius: 10%;
+    background-color: white; }
+      .footer-16371 .social ul li.fb a {
+        color: rgba(11, 85, 194, 1);
+        margin-left: 10px;
+        padding: 15px;
+        border-radius: 10%;
+    background-color: white; }
+     
+    .footer-16371 .copyright {
+      color: #fff; }
+
+      .list_unstyled li a{
+        color: white;
+      }
+
+      
+
 
 .loader {
     display: block;
@@ -229,7 +290,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 9911000;
+    z-index: 999999999;
     position: fixed;
     display: flex;
     justify-content: center;

@@ -8284,8 +8284,10 @@ textarea.form-control {
     border-color: #fff !important;
     color: rgba(11, 85, 194, 1); }
     .btn.btn-primary:hover, .btn.btn-primary:focus {
-      border-color: #aa1a77 !important;
-      background: #aa1a77 !important; }
+      border-color: rgba(0, 123, 255, 0.5) !important;
+      background: rgba(0, 123, 255, 0.5) !important;
+      color: white;
+    }
 
 .contactForm .form-control {
   border: none;

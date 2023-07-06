@@ -99,6 +99,7 @@
     height: 45%;
     position: relative;
     top: 7rem;
+    margin: auto;
 }
 
 /* .imgg{
@@ -283,6 +284,10 @@
 @media screen and (max-width: 370px){
     .containers3 img{
         height: 20rem;
+    }
+
+    .imgg img{
+        height: 180px;
     }
 
     .texts2 p{

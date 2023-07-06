@@ -286,8 +286,14 @@
         height: 20rem;
     }
 
+    .white{
+        position: relative;
+        bottom: 4rem;
+    }
+
     .imgg img{
         height: 180px;
+        top: 1rem;
     }
 
     .texts2 p{

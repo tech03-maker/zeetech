@@ -83,7 +83,7 @@
 
 .svg1{
     position: relative;
-    bottom: 10rem;
+    bottom: 7rem;
 }
 
 .about{
@@ -404,7 +404,7 @@
     }
 
     #preloader img {
-        width: 30%;
+        width: 25%;
         /* height: 10px; */
         height: auto;
         animation: scale 1s infinite alternate;
@@ -432,6 +432,7 @@
         font-size: 12px;
         padding: 5px;
     }
+    
 
     
 }

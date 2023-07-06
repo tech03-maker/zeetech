@@ -392,6 +392,7 @@
 
   .texts2 p {
     font-size: 10px;
+
   }
 }
 
@@ -424,7 +425,12 @@
   }
 
   .texts2 p {
-    font-size: 11px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .linkss{
+    text-align: center;
   }
 
   .content3 {

@@ -95,10 +95,16 @@
     text-align: center;
 }
 
-.imgg{
-    background-image: url(../images/iconic-mobile-phones.jpg);
+.imgg img{
+    height: 45%;
+    position: relative;
+    top: 7rem;
+}
+
+/* .imgg{
+    background-image: url(../images/New\ Macbook\ Pro\ Mockup\ Front\ View.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width: auto;
     height: 80vh;
@@ -106,7 +112,7 @@
     filter: brightness(70%);
     z-index: 9999;
     position: relative;
-}
+} */
 
 .containers2{
     display: flex;

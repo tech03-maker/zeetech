@@ -586,4 +586,9 @@
       display: block;
       text-align: center;
     }
+
+    .imgg img{
+      padding-left: 27px;
+      height: 10rem;
+    }
   }

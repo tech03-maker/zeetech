@@ -390,7 +390,13 @@
 
   .texts2 p {
     font-size: 10px;
+    /* padding-left: 30px; */
 
+  }
+
+  .texts2{
+    position: relative;
+    left: 2rem;
   }
 }
 
@@ -491,6 +497,13 @@
   .btn_1 {
     width: 100%;
   }
+
+  .texts2{
+    position: relative;
+    left: 2rem;
+  }
+
+  
 }
 @media screen and (max-width: 990px) {
   .hero_text h3 {
@@ -502,7 +515,7 @@
 
   .zeetech {
     font-size: 30px;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .imgg {
@@ -522,6 +535,11 @@
   }
   .content3{
     font-size: 30px;
+  }
+
+  .texts2{
+    position: relative;
+    left: 2rem;
   }
 
   @media screen and (max-width: 330px) {

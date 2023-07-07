@@ -214,6 +214,10 @@
   height: 70vh;
 }
 
+.btn_1 i {
+  padding-left: 20px;
+}
+
 .footer-16371 {
   padding: 6rem 0;
   font-family: "Poppins", sans-serif;

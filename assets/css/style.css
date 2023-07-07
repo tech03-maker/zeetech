@@ -399,7 +399,7 @@
 
 @media screen and (max-width: 370px) {
   .containers3 img {
-    height: 20rem;
+    height: 18rem;
     padding-left: 100px;
   }
 
@@ -560,6 +560,6 @@
   }
 
   .containers3 img{
-    height: 22rem;
+    height: 25rem;
 }
 }

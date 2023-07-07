@@ -359,9 +359,7 @@
     width: 100%;
   }
 
-  .about {
-    /* padding-top: 70px; */
-  }
+  
 
   .mobile img {
     display: block;
@@ -445,6 +443,8 @@
     font-size: 12px;
     padding: 5px;
   }
+
+
 }
 
 @media screen and (max-width: 660px) {
@@ -547,7 +547,7 @@
     }
 
     .mobile img {
-      height: 22rem;
+      height: 21rem;
     }
   }
 }

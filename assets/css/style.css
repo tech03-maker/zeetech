@@ -402,6 +402,10 @@
     padding-left: 100px;
   }
 
+  .content2{
+    font-size: 30px;
+  }
+
   .containers3 {
     display: block;
     justify-content: center;
@@ -500,8 +504,8 @@
     font-size: 30px;
   }
 
-  .texts2 {
-    padding-left: 50px;
+  .zeetech {
+    text-align: center;
   }
 
   .imgg {

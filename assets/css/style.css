@@ -13,7 +13,7 @@
 
 .navbar {
   align-items: center;
-  background-color: rgba(76, 134, 220, 1);
+  background-color: rgb(37, 83, 151);
 }
 
 .logos p {
@@ -557,9 +557,33 @@
   }
   .texts2{
     padding: 20px;
+    display: block;
   }
 
   .containers3 img{
     height: 25rem;
-}
-}
+    display: block;
+  justify-content: center;
+  }}
+
+  @media screen and (max-width: 390px) {
+    .containers3 img{
+      height: 25rem;
+      padding-left: 80px;
+      display: block;
+      justify-content: center;
+    }
+
+    .containers3 {
+      /* height: 25rem; */
+      display: block;
+      justify-content: center;
+    }
+
+
+    .texts2{
+      padding: 20px;
+      display: block;
+      text-align: center;
+    }
+  }

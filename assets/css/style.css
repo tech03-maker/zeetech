@@ -394,10 +394,7 @@
 
   }
 
-  .texts2{
-    position: relative;
-    left: 2rem;
-  }
+  
 }
 
 @media screen and (max-width: 370px) {
@@ -434,6 +431,7 @@
 
   .texts2 p {
     font-size: 10px;
+    /* display: inline-block; */
     text-align: center;
   }
 
@@ -450,6 +448,9 @@
     padding: 5px;
   }
 
+  .zeetech{
+    text-align: center;
+  }
 
 }
 
@@ -460,14 +461,9 @@
         padding: 10px;
     }  */
 
-  .deep_blue h4 {
-    font-size: 15px;
-    padding-left: -6rem;
-  }
+  
 
-  .texts2 p {
-    /* font-size: 15px; */
-  }
+  
 }
 
 @media screen and (max-width: 889px) {
@@ -498,10 +494,7 @@
     width: 100%;
   }
 
-  .texts2{
-    position: relative;
-    left: 2rem;
-  }
+  
 
   
 }
@@ -537,10 +530,7 @@
     font-size: 30px;
   }
 
-  .texts2{
-    position: relative;
-    left: 2rem;
-  }
+  
 
   @media screen and (max-width: 330px) {
     .hero_text h4 {
@@ -565,4 +555,11 @@
       height: 21rem;
     }
   }
+  .texts2{
+    padding: 20px;
+  }
+
+  .containers3 img{
+    height: 20rem;
+}
 }

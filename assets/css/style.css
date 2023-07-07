@@ -363,6 +363,7 @@
 
   .mobile img {
     display: block;
+
   }
 
   .hero_text h3 {
@@ -393,7 +394,9 @@
     /* padding-left: 30px; */
 
   }
-
+.mobile2{
+  /* padding-left: 10rem; */
+}
   
 }
 
@@ -450,6 +453,10 @@
 
   .zeetech{
     text-align: center;
+  }
+
+  .mobile2{
+    /* padding-left: 10rem; */
   }
 
 }
@@ -569,7 +576,7 @@
   @media screen and (max-width: 390px) {
     .containers3 img{
       height: 25rem;
-      padding-left: 80px;
+      /* padding-left: 80px; */
       display: block;
       justify-content: center;
     }

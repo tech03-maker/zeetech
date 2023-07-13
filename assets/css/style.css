@@ -612,3 +612,10 @@
       height: 10rem;
     }
   }
+  @media screen and (max-width: 970px) {
+    .imgg img{
+      height: 60%;
+      /* margin: auto; */
+      padding-left: 15%;
+    }
+  }

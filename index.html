@@ -359,7 +359,23 @@
         </svg>
             </section>
 
-            
+            <div class="container mb-5" style="border: 1px solid #ccc;">
+        <h2>Feedback Form</h2>
+        <form id="feedbackForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <div class="error-message" id="error"></div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
             
 
             <footer class="footer-16371">
@@ -408,6 +424,7 @@ setTimeout(() => {
   loader.style.display = "none";
 }, 5000);
   </script>
+  <script src="assets/js/feedback.js"></script>
 
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script> -->
   <script src="assets/bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>

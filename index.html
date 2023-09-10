@@ -361,7 +361,7 @@
 
             <div class="container mb-5" style="border: 1px solid #ccc;">
         <h2>Feedback Form</h2>
-        <form id="feedbackForm">
+        <form id="feedbackForm" method="post" action="feedback.php">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -373,7 +373,7 @@
 
             <div class="error-message" id="error"></div>
 
-            <button type="submit">Submit</button>
+            <button type="submit" value="submit">Submit</button>
         </form>
     </div>
             

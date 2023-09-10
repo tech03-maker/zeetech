@@ -373,7 +373,7 @@
 
             <div class="error-message" id="error"></div>
 
-            <button type="submit" value="submit">Submit</button>
+            <button type="submit" value="submit" name="submit">Submit</button>
         </form>
     </div>
             
@@ -424,7 +424,9 @@ setTimeout(() => {
   loader.style.display = "none";
 }, 5000);
   </script>
-  <script src="assets/js/feedback.js"></script>
+
+  
+  <!-- <script src="assets/js/feedback.js"></script> -->
 
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script> -->
   <script src="assets/bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>

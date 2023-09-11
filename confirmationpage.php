@@ -17,7 +17,6 @@
       <div class="contain w-50"></div>
       <h2>Submission Succesful</h2>
       <p>THANKS FOR SHARING YOUR FEEDBACK😘</p>
-      <small>HOPE TO SEE YOU AGAIN!</small>
     </div>
   </body>
   <script src="assets/bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>

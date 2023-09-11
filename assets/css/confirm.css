@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.contain {
+  background-image: url(../images/XD4x.gif);
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  /* border-radius: 500%; */
+}
+
+h2 {
+  font-style: italic;
+}

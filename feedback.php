@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
         $stmt->bind_param("sss", $name, $email, $message);
 
         if ($stmt->execute()) {
-            echo "Submission successful!";
+            header("location:confirmationpage.php");
         } else {
             echo "Error: " . $stmt->error;
         }

@@ -311,40 +311,14 @@
             <label for="feedback-message">Message:</label>
             <textarea id="feedback-message" name="message" rows="4" required></textarea>
 
-            <div class="error-message" id="error"></div>
+            <div class="error-message" id="error">Couldn't submit</div>
 
-            <button type="submit" value="submit" name="submit" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">
+            <button type="submit" value="submit" name="submit" class="btn btn-primary btn-lg">
                 Submit
             </button>
         </form>
     </div>
-<!-- Modal trigger button -->
 
-<!-- Modal Body -->
-<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-<div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <!-- <h5 class="modal-title" id="modalTitleId">Modal title</h5> -->
-                    
-            </div>
-            <div class="modal-body">
-               <p class="text-success fw-bold text-center fs-5">Submission Successful<i style="padding-left: 5px;" class="fas fa-check-circle"></i></p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- Optional: Place to the bottom of scripts -->
-<script>
-    const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
-
-</script>
 
     <footer class="footer-16371">
         <div class="container">

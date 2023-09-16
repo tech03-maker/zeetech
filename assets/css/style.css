@@ -7,6 +7,15 @@
   font-family: "Poppins", sans-serif;
 }
 
+.privacy{
+  text-decoration: none;
+}
+
+.privacy:hover{
+  text-decoration: underline;
+  color: white;
+}
+
 .logos {
   align-items: baseline;
 }
@@ -282,6 +291,16 @@
   padding: 15px;
   border-radius: 10%;
   background-color: white;
+}
+
+.footer-16371 .social ul li.tw:hover a{
+  color: #007bff !important;
+}
+.footer-16371 .social ul li.in:hover a{
+  color: #007bff !important;
+}
+.footer-16371 .social ul li.fb:hover a{
+  color: #007bff !important;
 }
 
 .footer-16371 .social ul li.fb a {
